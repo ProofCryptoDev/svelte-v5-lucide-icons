@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+/dist
+/build
+.env
+.env.*
+
+# Ignore files for pkgx, bun, pnpm, npm and yarn
+.pkgx.yaml
+bun.lockb
+pnpm-lock.yaml
+package-lock.json
+yarn.lock

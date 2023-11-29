@@ -1,0 +1,9 @@
+<script lang='ts'>
+  import Icon from '../Icon.svelte';
+
+  let {...p} = $props<IconProps>();
+
+  const svg = '<path d="M15 6v6h4l-7 7-7-7h4V6h6z"/>';
+</script>
+
+<Icon {...p} name='arrow-big-down' svg={svg}/>
