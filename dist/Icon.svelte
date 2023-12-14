@@ -6,7 +6,7 @@
     strokeWidth = 2,
     absoluteStrokeWidth = false,
     svg,
-    className,
+    class: c,
     ...p
   } = $props<LucideIconProps>();
 </script>
@@ -22,7 +22,7 @@
   height={size}
   stroke={color}
   stroke-width={absoluteStrokeWidth ? Number(strokeWidth) * 24 / Number(size) : strokeWidth}
-  class={`lucide lucide-${name}${className ? (' ' + className) : ''}`}
+  class={`l-icon l-icon-${name}${c ? (' ' + c) : ''}`}
 >
   {@html svg}
 </svg>

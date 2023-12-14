@@ -5,7 +5,7 @@ interface IconProps {
   size?: number | string;
   strokeWidth?: number | string;
   absoluteStrokeWidth?: boolean;
-  className?: string;
+  class?: string;
 }
 
 interface LucideIconProps extends IconProps {
